@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Towers of Hanoi!</title>
+</head>
+
+<body>
+    <h1>Towers of Hanoi!</h1>
+  <input id="reset-button" type="button" value="Reset Game" />
+
+<br>
+<p></p>
+<br>
+
+<div class="game">
+  <div class="container" id="0">
+    <div class='disk' id="first"> </div>
+    <div class='disk' id="second"> </div>
+    <div class='disk' id="third"> </div>
+  </div>
+  <div class="container" id="1">
+  </div>
+  <div class="container" id="2">
+  </div>
+</div>
+  <!-- first load the jQuery version hosted by Google -->
+  <script type="text/javascript"
+           src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="hanoi.css"/>
+  <!-- then load our own app.js code -->
+  <script type="text/javascript" src="./towers.js"></script>
+</body>
+</html>

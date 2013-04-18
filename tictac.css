@@ -1,0 +1,21 @@
+.game {
+    height:500px;
+    width:500px;
+    position: fixed;
+
+}
+.container{
+  height:100%;
+  width:150px;
+  max-height: 150px;
+  background-color: #C1F2A5;
+  display: inline-block;
+  margin: 2px;
+/*  padding-bottom:50px;*/
+}
+
+.symbol{
+  font: Helvetica;
+  font-size: 165px;
+  margin: auto auto auto auto;
+}
