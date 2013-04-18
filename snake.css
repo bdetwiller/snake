@@ -1,6 +1,32 @@
-#board{
-  height:500px;
-  width:500px;
+.game{
+	height:200px;
+	width:200px;
+}
+
+.board{
+  height:20px;
+  width:20px;
   background-color: #C1F2A5;
-  margin: 2px;
+  float: left;
+}
+
+#S{
+	height:20px;
+  width:20px;
+  background-color: #309538;
+  float: left;
+}
+
+#B{
+	height:20px;
+  width:20px;
+  background-color: #43D74F;
+  float: left;
+}
+
+#A{
+	height:20px;
+  width:20px;
+  background-color: #E81E1E;
+  float: left;
 }
